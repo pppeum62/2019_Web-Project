@@ -21,3 +21,23 @@
 .steel-cut-pic .steel-cut-1 img { height: 370px; position: absolute; top: 0; right: 295px; z-index: 1; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
 .steel-cut-pic .steel-cut-2 img { top: -150px; }
 .steel-cut-pic .steel-cut-3 img { top: 170px; }
+
+/* 캐릭터 */
+.character-area { text-align: center; position: relative; height: 2600px; }
+.character-area .character-title { margin: 120px 0; }
+.character-area .character-title img { height: 29px; }
+.character-1 { position: relative; }
+.character-background-1 img { height: 520px; position: absolute; left: 0; }
+.character-pic-1 img { height: 450px; position: absolute; z-index: 1; left: 380px; top: 35px; }
+.character-2 { position: relative; top: 570px; right: 0; }
+.character-background-2 img { height: 520px; position: absolute; right: 0; }
+.character-pic-2 img { height: 450px; position: absolute; z-index: 1; top: 35px; right: 380px; }
+.character-3 { position: relative; top: 1140px; }
+.character-background-3 img { height: 520px; position: absolute; left: 0; }
+.character-pic-3 img { height: 450px; position: absolute; z-index: 1; left: 380px; top: 35px; }
+.character-4 { position: relative; top: 1710px; right: 0; }
+.character-background-4 img { height: 520px; position: absolute; right: 0 }
+.character-pic-4 img { height: 450px; position: absolute; z-index: 1; top: 35px; right: 380px; }
+
+/* Top 10 Film of the year */
+.top-10 img { width: 100%; }
