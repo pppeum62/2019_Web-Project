@@ -18,13 +18,13 @@
 .info-1-title { font-size: 45px; margin-bottom: 35px; }
 .info-1 { text-align: left; font-size: 12px; line-height: 1.2; }
 .steel-cut-pic img { height: 350px; position: absolute; right: 308px; }
-.steel-cut-pic .steel-cut-1 img { height: 370px; position: absolute; top: 0; right: 295px; z-index: 1; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+.steel-cut-pic .steel-cut-1 img { height: 370px; position: absolute; top: 0; right: 295px; z-index: 1; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35); }
 .steel-cut-pic .steel-cut-2 img { top: -150px; }
 .steel-cut-pic .steel-cut-3 img { top: 170px; }
 
 /* 캐릭터 */
 .character-area { text-align: center; position: relative; height: 2600px; }
-.character-area .character-title { margin: 120px 0; }
+.character-area .character-title { margin: 0 0 70px 0; }
 .character-area .character-title img { height: 29px; }
 .character-1 { position: relative; }
 .character-background-1 img { height: 520px; position: absolute; left: 0; }
@@ -47,8 +47,28 @@
 .character-pic-4 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-4:hover img { transform: scale(1.1); }
 
-/* Top 10 Film of the year */
-.top-10 img { width: 100%; }
+/* banner */
+/*.banner-area { height: auto; }
+.banner-area img { width: 100%; }*/
+
+.banner-area { height: 563px; width: 100%; overflow: hidden; position:relative; }
+.banner-area li { position: absolute; left: 0; right: 0; top: 0; bottom: 0; opacity: 0; transition: 2s; }
+.banner-area li:nth-child(1) { background: url("./image/banner(1).png"); background-size: 100% auto; }
+.banner-area li:nth-child(2) { background: url("./image/banner(2).png"); background-size: 100% auto; }
+.banner-area li:nth-child(3) { background: url("./image/banner(3).png"); background-size: 100% auto; }
+.banner-area input { display: none; }
+.banner-area .bullet { position: absolute; bottom: 20px; left: 0; right: 0; text-align: center; z-index: 10; }
+.banner-area .bullet label { width: 10px; height: 10px; margin: 0 5px; border-radius: 10px; display: inline-block; background: #d1d1d1; font-size: 0; transition: 0.5s; cursor: pointer; }
+
+/* 슬라이드 조작 */
+#pos1:checked ~ ul li:nth-child(1),
+#pos2:checked ~ ul li:nth-child(2),
+#pos3:checked ~ ul li:nth-child(3) { opacity: 1; }
+
+/* bullet 조작 */
+#pos1:checked ~ .bullet label:nth-child(1),
+#pos2:checked ~ .bullet label:nth-child(2),
+#pos3:checked ~ .bullet label:nth-child(3) { background: #3e3e3e; }
 
 /* 트레일러 */
 .trailer-area { text-align: center; position: relative; }
