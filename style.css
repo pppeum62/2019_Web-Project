@@ -41,3 +41,13 @@
 
 /* Top 10 Film of the year */
 .top-10 img { width: 100%; }
+
+/* 트레일러 */
+.trailer-area { text-align: center; position: relative; }
+.trailer-title { margin: 120px 0 0 0; }
+.trailer-title img { height: 29px; }
+.trailer-background img { width: 100%; }
+.trailer { position: absolute; top: 320px; left: 360px; }
+
+/* footer */
+.footer-area img { width: 100%; }
