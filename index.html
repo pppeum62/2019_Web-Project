@@ -4,12 +4,12 @@
         <title>Mary Poppins Returns</title>
         <meta charset="UTF-8">
 
+        <!-- stylesheet -->
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
 
-        <!--<link href="//db.onlinewebfonts.com/c/e3dc290ce446e0857185315566acb41b?family=Century725+BT" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">-->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </head>
     <body>
         <div id="wrap">
@@ -19,9 +19,9 @@
                         <img src="image/logo.png">
                     </div>
                     <div class="header-menu">
-                        <a href="#">STEEL CUT</a>
-                        <a href="#">CHARACTER</a>
-                        <a href="#">TRAILER</a>
+                        <a href=".steel-cut-area">STEEL CUT</a>
+                        <a href=".character-area">CHARACTER</a>
+                        <a href=".trailer-title">TRAILER</a>
                         <a href="#">OST</a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="trailer-area">
                     <div class="trailer-title">
-                        <img src="./image/character-title.png">
+                        <img src="./image/trailer-title.png">
                     </div>
                     <div class="trailer-background">
                         <img src="./image/trailer-background.png">
@@ -149,5 +149,12 @@
         <div>
             <img style="width:100%" src="image/guide.jpg">
         </div>
+        <script>
+            $('.header-menu a').click(function(e) {
+                var goTo = $(this).attr('href'); // selects element that was clicked
+                $("html, body").animate({scrollTop:$(goTo).offset().top-50}, 1100);
+                e.preventDefault();
+            });
+        </script>
     </body>
 </html>

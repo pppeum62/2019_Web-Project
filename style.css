@@ -52,8 +52,8 @@
 
 /* 트레일러 */
 .trailer-area { text-align: center; position: relative; }
-.trailer-title { margin: 120px 0 0 0; }
-.trailer-title img { height: 29px; }
+.trailer-title { margin: 120px 0 0 0; position: absolute; top: 70px; left: 645px; }
+.trailer-title img { height: 35px; }
 .trailer-background img { width: 100%; }
 .trailer { position: absolute; top: 320px; left: 360px; }
 
