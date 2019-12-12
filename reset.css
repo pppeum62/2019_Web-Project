@@ -6,6 +6,8 @@
             url("//db.onlinewebfonts.com/t/e3dc290ce446e0857185315566acb41b.ttf") format("truetype"),
             url("//db.onlinewebfonts.com/t/e3dc290ce446e0857185315566acb41b.svg#Century725 BT") format("svg"); }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* 여백초기화 */
 body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6,
 input, fieldset, legend, p, select, table, th, tr, td,
