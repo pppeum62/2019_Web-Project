@@ -132,3 +132,4 @@
 .linkedin-area:hover a:first-child { display: none; }
 .linkedin-area:hover a:last-child { display: inline; }
 .linkedin { right: 60px; }
+.footer-area address { color: #fff; position: absolute; font-style: normal; bottom: 70px; right: 55px; }
