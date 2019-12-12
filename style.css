@@ -9,7 +9,7 @@
 .header .header-menu a { margin-left: 38px; font-size: 15px; font-weight: 700; }
 
 /* 스틸컷 */
-.steel-cut-area { text-align: center; height: 900px; }
+.steel-cut-area { text-align: center; height: 900px; color: #3d3d3d; }
 .steel-cut-title { margin: 120px 0; }
 .steel-cut-title img { width: 260px; }
 .steel-cut { position: relative; margin-top: 200px; }
@@ -22,30 +22,58 @@
 .steel-cut-pic .steel-cut-2 img { top: -150px; }
 .steel-cut-pic .steel-cut-3 img { top: 170px; }
 
-/* 캐릭터 */
+/* character-area */
 .character-area { text-align: center; position: relative; height: 2600px; }
 .character-area .character-title { margin: 0 0 70px 0; }
 .character-area .character-title img { height: 29px; }
+/* character-1 */
 .character-1 { position: relative; }
 .character-background-1 img { height: 520px; position: absolute; left: 0; }
 .character-pic-1 { height: 450px; position: absolute; left: 380px; top: 35px; overflow: hidden; }
 .character-pic-1 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-1:hover img { transform: scale(1.1); }
+/* character-2 */
 .character-2 { position: relative; top: 570px; right: 0; }
 .character-background-2 img { height: 520px; position: absolute; right: 0; }
 .character-pic-2 { height: 450px; position: absolute; top: 35px; right: 380px; overflow: hidden; }
 .character-pic-2 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-2:hover img { transform: scale(1.1); }
+/* character-3 */
 .character-3 { position: relative; top: 1140px; }
 .character-background-3 img { height: 520px; position: absolute; left: 0; }
 .character-pic-3 { height: 450px; position: absolute; left: 380px; top: 35px; overflow: hidden; }
 .character-pic-3 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-3:hover img { transform: scale(1.1); }
+/* character-4 */
 .character-4 { position: relative; top: 1710px; right: 0; }
 .character-background-4 img { height: 520px; position: absolute; right: 0 }
 .character-pic-4 { height: 450px; position: absolute; top: 35px; right: 380px; overflow: hidden; }
 .character-pic-4 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-4:hover img { transform: scale(1.1); }
+/* character-info */
+.character-info-1 { position: absolute; right: 300px; top: 150px; }
+.character-info-1 .name { text-align: left; color: #1c4393; }
+.character-info-1 .name .character-name { font-size: 45px; position: relative; }
+.character-info-1 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+.character-info-1 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
+
+.character-info-2 { position: absolute; left: 300px; top: 150px; }
+.character-info-2 .name { text-align: left; color: #1c4393; }
+.character-info-2 .name .character-name { font-size: 45px; position: relative; }
+.character-info-2 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+.character-info-2 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
+
+.character-info-3 { position: absolute; right: 300px; top: 150px; }
+.character-info-3 .name { text-align: left; color: #1c4393; }
+.character-info-3 .name .character-name { font-size: 45px; position: relative; }
+.character-info-3 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+.character-info-3 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
+
+.character-info-4 { position: absolute; left: 300px; top: 150px; }
+.character-info-4 .name { text-align: left; color: #1c4393; }
+.character-info-4 .name .character-name { font-size: 35px; position: relative; line-height: 1.2; }
+.character-info-4 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -15px; left: 2px; }
+.character-info-4 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
 
 /* banner */
 /*.banner-area { height: auto; }
