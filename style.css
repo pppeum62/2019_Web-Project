@@ -83,6 +83,10 @@
 .ost-title img { height: 35px; position: absolute; z-index: 1; }
 .ost { position: absolute; }
 .ost img { height: 700px; position: absolute; z-index: 1; top: -260px; left: 412px; }
+.ost .back { height: 50px; top: 70px; left: 530px; }
+.ost .next { height: 50px; top: 70px; left: 930px; }
+.ost .play { height: 50px; top: 70px; left: 753px; }
+.ost .stop { display: none; }
 
 /* footer */
 .footer-area { position: relative; }
