@@ -77,6 +77,13 @@
 .trailer-background img { width: 100%; }
 .trailer { position: absolute; top: 320px; left: 360px; }
 
+/* ost-area */
+.ost-area { position: relative; height: 220px; }
+.ost-title { position: absolute; top: -350px; left: 705px; margin: 0 0 400px 0; }
+.ost-title img { height: 35px; position: absolute; z-index: 1; }
+.ost { position: absolute; }
+.ost img { height: 700px; position: absolute; z-index: 1; top: -260px; left: 412px; }
+
 /* footer */
 .footer-area { position: relative; }
 .footer-area img { width: 100%; }
