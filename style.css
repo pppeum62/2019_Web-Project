@@ -21,8 +21,8 @@
 .steel-cut-pic .steel-cut-1 img { height: 370px; position: absolute; top: 0; right: 295px; z-index: 1; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35); }
 .steel-cut-pic .steel-cut-2 img { top: -150px; }
 .steel-cut-pic .steel-cut-3 img { top: 170px; }
-.steel-cut .steel-cut-btn .up-btn { position: absolute; z-index: 2; top: 0; right: 545px; padding: 10px 20px; background-color: rgba(0, 0, 0, 0.4); }
-.steel-cut .steel-cut-btn .down-btn { position: absolute; z-index: 2; bottom: 0; right: 545px; padding: 10px 20px; background-color: rgba(0, 0, 0, 0.4); }
+.steel-cut .steel-cut-btn .up-btn { position: absolute; z-index: 2; top: 0; right: 545px; padding: 10px 20px; background-color: rgba(0, 0, 0, 0.4); cursor: pointer; }
+.steel-cut .steel-cut-btn .down-btn { position: absolute; z-index: 2; bottom: 0; right: 545px; padding: 10px 20px; background-color: rgba(0, 0, 0, 0.4); cursor: pointer; }
 
 /* character-area */
 .character-area { text-align: center; position: relative; height: 2600px; }
