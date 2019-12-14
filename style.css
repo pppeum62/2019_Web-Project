@@ -51,34 +51,26 @@
 .character-pic-4 img { z-index: 1; height: 100%; transform: scale(1); transition: all 0.6s ease-in-out; }
 .character-pic-4:hover img { transform: scale(1.1); }
 /* character-info */
+.name { text-align: left; color: #1c4693; }
+.info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
+/* character-info-1 */
 .character-info-1 { position: absolute; right: 300px; top: 150px; }
-.character-info-1 .name { text-align: left; color: #1c4393; }
 .character-info-1 .name .character-name { font-size: 45px; position: relative; }
 .character-info-1 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
-.character-info-1 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
-
+/* character-info-2 */
 .character-info-2 { position: absolute; left: 300px; top: 150px; }
-.character-info-2 .name { text-align: left; color: #1c4393; }
 .character-info-2 .name .character-name { font-size: 45px; position: relative; }
 .character-info-2 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
-.character-info-2 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
-
+/* character-info-3 */
 .character-info-3 { position: absolute; right: 300px; top: 150px; }
-.character-info-3 .name { text-align: left; color: #1c4393; }
 .character-info-3 .name .character-name { font-size: 45px; position: relative; }
 .character-info-3 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
-.character-info-3 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
-
+/* character-info-4 */
 .character-info-4 { position: absolute; left: 300px; top: 150px; }
-.character-info-4 .name { text-align: left; color: #1c4393; }
 .character-info-4 .name .character-name { font-size: 35px; position: relative; line-height: 1.2; }
 .character-info-4 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -15px; left: 2px; }
-.character-info-4 .info { text-align: left; color: #3d3d3d; margin: 20px 0 0 4px; line-height: 1.2; }
 
 /* banner */
-/*.banner-area { height: auto; }
-.banner-area img { width: 100%; }*/
-
 .banner-area { height: 563px; width: 100%; overflow: hidden; position:relative; }
 .banner-area li { position: absolute; left: 0; right: 0; top: 0; bottom: 0; opacity: 0; transition: 2s; }
 .banner-area li:nth-child(1) { background: url("./image/banner(1).png"); background-size: 100% auto; }
