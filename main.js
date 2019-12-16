@@ -12,7 +12,11 @@ for(var i = 0; i < files.length; i++) {
 }
 
 upbtn.addEventListener('click', function() {
-    index++;
+    if(index == 0) {
+        index = 2;
+    } else {
+        index--;
+    }
 
     console.log(index);
 
@@ -21,11 +25,7 @@ upbtn.addEventListener('click', function() {
 });
 
 downbtn.addEventListener('click', function() {
-    if(index == 0) {
-        index = 2;
-    } else {
-        index--;
-    }
+    index++;
 
     console.log(index);
 
