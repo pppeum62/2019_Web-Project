@@ -41,6 +41,8 @@ upbtn.addEventListener('click', function() {
     mainimg.src = arr[index%3].src;
     upimg.src = arr[upindex%3].src;
     downimg.src = arr[downindex%3].src;
+
+    mainimg.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.35)";
 });
 
 downbtn.addEventListener('click', function() {
@@ -57,4 +59,6 @@ downbtn.addEventListener('click', function() {
     mainimg.src = arr[index%3].src;
     upimg.src = arr[upindex%3].src;
     downimg.src = arr[downindex%3].src;
+
+    mainimg.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.35)";
 });
