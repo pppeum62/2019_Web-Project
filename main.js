@@ -5,6 +5,8 @@ var files = [ './image/steelCut(1).jpg', './image/steelCut(2).jpg', './image/ste
 var arr = new Array();
 
 var index = 0;
+var upindex = 1;
+var downindex = 2;
 
 for(var i = 0; i < files.length; i++) {
     arr[i] = new Image();
@@ -18,17 +20,41 @@ upbtn.addEventListener('click', function() {
         index--;
     }
 
+    if(upindex == 0) {
+        upindex = 2;
+    } else {
+        upindex--;
+    }
+
+    if(downindex == 0) {
+        downindex = 2;
+    } else {
+        downindex--;
+    }
+
     console.log(index);
 
     var mainimg = document.getElementById("mainimg");
+    var upimg = document.getElementById("upimg");
+    var downimg = document.getElementById("downimg");
+
     mainimg.src = arr[index%3].src;
+    upimg.src = arr[upindex%3].src;
+    downimg.src = arr[downindex%3].src;
 });
 
 downbtn.addEventListener('click', function() {
     index++;
+    upindex++;
+    downindex++;
 
     console.log(index);
 
     var mainimg = document.getElementById("mainimg");
+    var upimg = document.getElementById("upimg");
+    var downimg = document.getElementById("downimg");
+
     mainimg.src = arr[index%3].src;
+    upimg.src = arr[upindex%3].src;
+    downimg.src = arr[downindex%3].src;
 });
