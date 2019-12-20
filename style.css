@@ -111,7 +111,8 @@
 .ost .next:hover { filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.35)); }
 .ost .play { height: 50px; top: 70px; left: 753px; cursor: pointer; }
 .ost .play:hover { filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.35)); }
-.ost .stop { display: none; }
+.ost .stop { display: none; height: 50px; top: 70px; left: 753px; cursor: pointer; }
+.ost .stop:hover { filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.35)); }
 
 /* footer */
 .footer-area { position: relative; }
