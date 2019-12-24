@@ -74,3 +74,12 @@ stopbtn.addEventListener('click', function() {      // stop 버튼을 누르면 
     stopbtn.style.display = 'none';
     playbtn.style.display = 'inline';
 });
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 100) {
+       $('.fixed').addClass('fixed-header');
+    }
+    else {
+       $('.fixed').removeClass('fixed-header');
+    }
+});  
