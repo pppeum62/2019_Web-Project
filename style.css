@@ -144,3 +144,13 @@
 .linkedin-area:hover a:last-child { display: inline; }
 .linkedin { right: 60px; }
 .footer-area address { color: #fff; position: absolute; font-style: normal; bottom: 70px; right: 55px; font-family: 'Roboto'; letter-spacing: -0.6px; }
+
+@media (min-width:0) and (max-width: 500px) {   /* mobile 버전 */
+    .header { text-align: center; width: 920px; margin: 0 auto; position: relative; }
+    .header .header-title { width: 50px; }
+
+    /* banner */
+    .banner-area { height: 150px; width: 100%; overflow: hidden; position:relative; }
+    .banner-area .bullet label { width: 5px; height: 5px; }
+    
+}
