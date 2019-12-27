@@ -22,7 +22,7 @@
                 <div class="header">
                     <div class="fixed">
                         <div class="header-title">
-                            <a href="./index.html"><img src="image/logo.png"></a>
+                            <a href=".header"><img src="image/logo.png"></a>
                         </div>
                         <div class="header-menu">
                             <a href=".steel-cut-area">STEEL CUT</a>
@@ -264,6 +264,12 @@
         </div>
         <script>
             $('.header-menu a').click(function(e) {
+                var goTo = $(this).attr('href'); // selects element that was clicked
+                $("html, body").animate({scrollTop:$(goTo).offset().top-50}, 1100);
+                e.preventDefault();
+            });
+
+            $('.header-title a').click(function(e) {
                 var goTo = $(this).attr('href'); // selects element that was clicked
                 $("html, body").animate({scrollTop:$(goTo).offset().top-50}, 1100);
                 e.preventDefault();
