@@ -147,7 +147,7 @@
 .linkedin { right: 60px; }
 .footer-area address { color: #fff; position: absolute; font-style: normal; bottom: 70px; right: 55px; font-family: 'Roboto'; letter-spacing: -0.6px; }
 
-@media (min-device-width:0) and (max-device-width: 500px) {   /* mobile 버전 */
+@media (max-device-width: 500px) {   /* mobile 버전 */
     .header { text-align: center; width: 100%; margin: 0 auto; position: relative; }
     #header .main-screen { height: 500px; width: auto; overflow: hidden; transform: translateX(-40%); }
     .header .header-title { width: 50px; z-index: 10; left: 50%; transform: translateX(-50%); }
