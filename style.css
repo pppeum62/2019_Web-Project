@@ -158,13 +158,14 @@
     /* 스틸컷 */
     .steel-cut-info { height: 200px; }
     .steel-cut-title { margin: 20% 0 0 0; }
+    .steel-cut-title img { width: 40%; }
     .steel-info-1 { margin: 80% 0 0 0; left: 50%; transform: translateX(-50%); white-space: nowrap; }
     .info-1-title { margin-bottom: 5%; font-size: 35px; }
     .steel-cut-pic img { height: 90%; position: absolute; right: unset; }
     .steel-cut-pic .steel-cut-1 img { height: 100%; right: unset; left: 50%; transform: translateX(-50%); }
     .steel-cut-pic .steel-cut-2 img { top: -60px; left: 50%; transform: translateX(-50%); }
     .steel-cut-pic .steel-cut-3 img { top: 40%; left: 50%; transform: translateX(-50%); }
-    .steel-cut { margin-top: 35%; }
+    .steel-cut { margin-top: 25%; }
     .steel-cut .steel-cut-btn .up-btn { right: unset; padding: 1% 2%; left: 50%; transform: translateX(-50%); }
     .steel-cut .steel-cut-btn .down-btn { right: unset; padding: 1% 2%; left: 50%; transform: translateX(-50%); }
     .steel-cut .steel-cut-btn img { width: 60%; }
