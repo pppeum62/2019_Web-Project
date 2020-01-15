@@ -156,6 +156,7 @@
     .header .header-menu a { margin-left: 17px; }
 
     /* 스틸컷 */
+    .steel-cut-area { height: 600px; }
     .steel-cut-info { height: 200px; }
     .steel-cut-title { margin: 20% 0 0 0; }
     .steel-cut-title img { width: 40%; }
@@ -169,6 +170,49 @@
     .steel-cut .steel-cut-btn .up-btn { right: unset; padding: 1% 2%; left: 50%; transform: translateX(-50%); }
     .steel-cut .steel-cut-btn .down-btn { right: unset; padding: 1% 2%; left: 50%; transform: translateX(-50%); }
     .steel-cut .steel-cut-btn img { width: 60%; }
+
+    /* character-area */
+    .character-area { text-align: center; position: relative; height: 2600px; }
+    .character-area .character-title { margin: 0 0 30px 0; }
+    .character-area .character-title img { height: unset; width: 40%; }
+    /* character-1 */
+    .character-1 { height: 50px; }
+    .character-background-1 img { height: unset; width: 70%; left: -10%; }
+    .character-pic-1 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; }
+    .character-pic-1 img { height: unset; width: 100%; }
+    /* character-2 */
+    .character-2 { height: 50px; top: 400px; }
+    .character-background-2 img { height: unset; width: 70%; right: -10%; }
+    .character-pic-2 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; right: unset; }
+    .character-pic-2 img { height: unset; width: 100%; }
+    /* character-3 */
+    .character-3 { height: 50px; top: 790px; }
+    .character-background-3 img { height: unset; width: 70%; left: -10%; }
+    .character-pic-3 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; }
+    .character-pic-3 img { height: unset; width: 100%; }
+    /* character-4 */
+    .character-4 { height: 50px; top: 1180px; }
+    .character-background-4 img { height: unset; width: 70%; right: -10%; }
+    .character-pic-4 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; right: unset; }
+    .character-pic-4 img { height: unset; width: 100%; }
+    /* character-info */
+    .info { margin: 20px 0 0 2px; }
+    /* character-info-1 */
+    .character-info-1 { right: unset; top: 60px; left: 50%; transform: translateX(-50%); margin-top: 50%; white-space: nowrap; }
+    .character-info-1 .name .character-name { font-size: 28px; }
+    .character-info-1 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+    /* character-info-2 */
+    .character-info-2 { right: unset; top: 60px; left: 50%; transform: translateX(-50%); margin-top: 50%; white-space: nowrap; }
+    .character-info-2 .name .character-name { font-size: 28px; }
+    .character-info-2 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+    /* character-info-3 */
+    .character-info-3 { right: unset; top: 60px; left: 50%; transform: translateX(-50%); margin-top: 50%; white-space: nowrap; }
+    .character-info-3 .name .character-name { font-size: 28px; }
+    .character-info-3 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -10px; left: 2px; }
+    /* character-info-4 */
+    .character-info-4 { right: unset; top: 60px; left: 50%; transform: translateX(-50%); margin-top: 50%; white-space: nowrap; }
+    .character-info-4 .name .character-name { font-size: 28px; }
+    .character-info-4 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -15px; left: 2px; }
 
     /* banner */
     .banner-area { height: 150px; width: 100%; overflow: hidden; position:relative; }
