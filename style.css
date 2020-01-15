@@ -131,7 +131,7 @@
 /* footer */
 .footer-area { position: relative; }
 .footer-area img { width: 100%; }
-.footer-area .footer-contents { font-size: 30px; line-height: 1.2; text-align: center; position: absolute; left: 50%; top: 50%; transform: translateX(-50%); background-color: white; padding: 70px 130px; }
+.footer-area .footer-contents { font-size: 30px; line-height: 1.2; text-align: center; position: absolute; left: 50%; top: 50%; transform: translateX(-50%); background-color: white; padding: 70px 130px; white-space: nowrap; }
 .footer-icon img { width: 25px; position: absolute; bottom: 120px; }
 .instagram-area a:last-child { display: none; }
 .instagram-area:hover a:first-child { display: none; }
