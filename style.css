@@ -215,7 +215,12 @@
     .character-info-4 .name .character-name .actor-name { position: absolute; font-size: 12px; top: -15px; left: 2px; }
 
     /* banner */
-    .banner-area { height: 150px; width: 100%; overflow: hidden; position:relative; }
-    .banner-area .bullet label { width: 5px; height: 5px; }
-    
+    .banner-area { height: 200px; }
+    .banner-area li:nth-child(1) { background-size: 120% auto; left: -20%; }
+    .banner-area li:nth-child(2) { background-size: 120% auto; left: -20%; }
+    .banner-area li:nth-child(3) { background-size: 120% auto; left: -20%; }
+    .banner-area input { display: none; }
+    .banner-area .bullet { bottom: 10px; left: 50%; display: none; }
+    .banner-area .bullet label { width: 5px; height: 5px; margin: 0 3px; }
+
 }
