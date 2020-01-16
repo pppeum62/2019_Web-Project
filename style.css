@@ -216,7 +216,7 @@
 
     /* banner */
     .banner-area { height: 200px; }
-    .banner-area li:nth-child(1) { background-size: 120% auto; left: -20%; }
+    .banner-area li:nth-child(1) { background-size: 120% auto; left: -25%; }
     .banner-area li:nth-child(2) { background-size: 120% auto; left: -20%; }
     .banner-area li:nth-child(3) { background-size: 120% auto; left: -20%; }
     .banner-area input { display: none; }
