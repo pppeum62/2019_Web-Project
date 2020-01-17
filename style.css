@@ -223,4 +223,10 @@
     .banner-area .bullet { bottom: 10px; left: 50%; display: none; }
     .banner-area .bullet label { width: 5px; height: 5px; margin: 0 3px; }
 
+    /* 트레일러 */
+    .trailer-title { margin: 0; top: 16%; width: 100%; left: 50%; transform: translateX(-50%); }
+    .trailer-title img { height: unset; width: 25% }
+    .trailer-background img { position: relative; width: 140%; left: 50%; transform: translateX(-50%); }
+    .trailer { top: 25%; width: 80%; }
+    .trailer iframe { width: 100%; height: auto; }
 }
