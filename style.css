@@ -239,4 +239,23 @@
     .ost .next { height: unset; width: 4%; top: 50%; left: 65%; transform: translate(-65%, -50%); }
     .ost .play { height: unset; width: 4%; top: 50%; left: 50%; transform: translate(-50%, -50%); }
     .ost .stop { height: unset; width: 4%; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+    /* footer */
+    .footer-area { position: relative; }
+    .footer-area img { width: 100%; }
+    .footer-area .footer-contents { font-size: 15px; padding: 30px 50px; }
+    .footer-icon img { width: 25px; position: absolute; bottom: 120px; }
+    .instagram-area a:last-child { display: none; }
+    .instagram-area:hover a:first-child { display: none; }
+    .instagram-area:hover a:last-child { display: inline; }
+    .instagram { right: 140px; }
+    .facebook-area a:last-child { display: none; }
+    .facebook-area:hover a:first-child { display: none; }
+    .facebook-area:hover a:last-child { display: inline; }
+    .facebook { right: 100px; }
+    .linkedin-area a:last-child { display: none; }
+    .linkedin-area:hover a:first-child { display: none; }
+    .linkedin-area:hover a:last-child { display: inline; }
+    .linkedin { right: 60px; }
+    .footer-area address { color: #fff; position: absolute; font-style: normal; bottom: 70px; right: 55px; font-family: 'Roboto'; letter-spacing: -0.6px; }
 }
