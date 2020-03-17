@@ -1,5 +1,15 @@
 # 2019_Web-Project
+Mary Poppins Returns
+> 2019.12. - 2020
 
-Mary Poppins Reuturns
+## Website
+[MaryPoppinsReturns](https://pppeum62.github.io/2019_Web-Project/)
 
-2019 - 2020
+## Built With
+- HTML
+- CSS
+- JavaScript
+
+## Authors
+- [**Gippeum Lee**](https://github.com/pppeum62) / *Front-end Development*
+- **Seoyeon Bae** / *Design*
