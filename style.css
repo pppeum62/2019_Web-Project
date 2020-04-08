@@ -249,7 +249,7 @@
     /* footer */
     .footer-area { position: relative; overflow: hidden; }
     .footer-area img { width: 100%; }
-    .footer-area .footer-contents { font-size: 15px; padding: 30px 50px; top: 30%; }
+    .footer-area .footer-contents { font-size: 15px; padding: 30px 50px; top: 11vh; }
     .footer-icon img { width: 4vw; position: absolute; bottom: 5vh; }
     .instagram-area a:last-child { display: none; }
     .instagram-area:hover a:first-child { display: none; }
