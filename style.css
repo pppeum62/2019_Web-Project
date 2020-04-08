@@ -152,8 +152,8 @@
     #header .main-screen { height: 500px; width: auto; overflow: hidden; transform: translateX(-40%); }
     .header .header-title { width: 50px; z-index: 10; left: 50%; transform: translateX(-50%); }
     .header .header-title .logoimg { width: 50px; }
-    .header .header-menu { z-index: 10; right: unset; margin-top: 40px; }
-    .header .header-menu a { margin-left: 17px; }
+    .header .header-menu { z-index: 10; right: unset; margin-top: 40px; display: flex; justify-content: space-around; width: 100vw; }
+    .header .header-menu a { margin-left: unset; }
 
     /* 스틸컷 */
     .steel-cut-area { height: 600px; }
