@@ -178,21 +178,25 @@
     .character-area .character-title img { height: unset; width: 40%; }
     /* character-1 */
     .character-1 { height: 50px; }
+    .character-background-1 { width: 100vw; height: 35vh; overflow: hidden; position: relative; }
     .character-background-1 img { height: unset; width: 70%; left: -10%; }
     .character-pic-1 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; }
     .character-pic-1 img { height: unset; width: 100%; }
     /* character-2 */
     .character-2 { height: 50px; top: 400px; }
+    .character-background-2 { width: 100vw; height: 35vh; overflow: hidden; position: relative; }
     .character-background-2 img { height: unset; width: 70%; right: -10%; }
     .character-pic-2 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; right: unset; }
     .character-pic-2 img { height: unset; width: 100%; }
     /* character-3 */
     .character-3 { height: 50px; top: 790px; }
+    .character-background-3 { width: 100vw; height: 35vh; overflow: hidden; position: relative; }
     .character-background-3 img { height: unset; width: 70%; left: -10%; }
     .character-pic-3 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; }
     .character-pic-3 img { height: unset; width: 100%; }
     /* character-4 */
     .character-4 { height: 50px; top: 1180px; }
+    .character-background-4 { width: 100vw; height: 35vh; overflow: hidden; position: relative; }
     .character-background-4 img { height: unset; width: 70%; right: -10%; }
     .character-pic-4 { height: unset; left: 50%; transform: translateX(-50%); top: 20%; right: unset; }
     .character-pic-4 img { height: unset; width: 100%; }
