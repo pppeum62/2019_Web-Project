@@ -249,19 +249,19 @@
     /* footer */
     .footer-area { position: relative; overflow: hidden; }
     .footer-area img { width: 100%; }
-    .footer-area .footer-contents { font-size: 15px; padding: 30px 50px; }
-    .footer-icon img { width: 25px; position: absolute; bottom: 120px; }
+    .footer-area .footer-contents { font-size: 15px; padding: 30px 50px; top: 30%; }
+    .footer-icon img { width: 4vw; position: absolute; bottom: 5vh; }
     .instagram-area a:last-child { display: none; }
     .instagram-area:hover a:first-child { display: none; }
     .instagram-area:hover a:last-child { display: inline; }
-    .instagram { right: 140px; }
+    .instagram { right: 17vw; }
     .facebook-area a:last-child { display: none; }
     .facebook-area:hover a:first-child { display: none; }
     .facebook-area:hover a:last-child { display: inline; }
-    .facebook { right: 100px; }
+    .facebook { right: 11vw; }
     .linkedin-area a:last-child { display: none; }
     .linkedin-area:hover a:first-child { display: none; }
     .linkedin-area:hover a:last-child { display: inline; }
-    .linkedin { right: 60px; }
-    .footer-area address { color: #fff; position: absolute; font-style: normal; bottom: 70px; right: 55px; font-family: 'Roboto'; letter-spacing: -0.6px; }
+    .linkedin { right: 5vw; }
+    .footer-area address {  bottom: 3vh; right: 5vw; font-size: 5px; }
 }
