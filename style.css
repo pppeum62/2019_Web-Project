@@ -263,5 +263,5 @@
     .linkedin-area:hover a:first-child { display: none; }
     .linkedin-area:hover a:last-child { display: inline; }
     .linkedin { right: 5vw; }
-    .footer-area address {  bottom: 3vh; right: 5vw; font-size: 5px; }
+    .footer-area address {  bottom: 3vh; right: 5vw; font-size: 10px; }
 }
